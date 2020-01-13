@@ -3,7 +3,7 @@ var description = document.getElementById("description");
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
 var button3 = document.getElementById("button3");
-var body = document.getElementsByTagName("BODY")[0];
+var body = document.body;
 var item = document.getElementById("inventoryItem");
   item.setAttribute("src", "https://vignette.wikia.nocookie.net/seaofthieves/images/1/1d/Coffre_du_marin.png/revision/latest?cb=20180617113421&path-prefix=fr");
   item.setAttribute("width", "20");
@@ -119,7 +119,7 @@ function daggertoothoutpost(){
 	button2.style.display = "none";
 	button1.innerHTML = "Aanvallen";
 	button1.onclick = function(){
-		if (itemclick == "1") {
+		if (itemclick == 1) {
 			einde();
 		}
 		else {

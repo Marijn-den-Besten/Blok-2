@@ -1,0 +1,293 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo', sans-serif;
+	width: 100%;
+}
+
+.contactHeader {
+	background-color: #8a2720;
+	height: 2.5em;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	top: 0;
+}
+
+.logoHeader {
+	height: 2.5em;
+	width: 100%;
+	margin-top: 2.5em;
+}
+
+.logoHeader ul{
+	display: none;
+}
+
+#menu-bars {
+	font-size: 20px;
+	display: inline;
+	color: white;
+	margin-left: 0.8em;
+	margin-top: 0.5em
+}
+
+#menuBar {
+	background-color: #8a2720;
+	border: none;
+
+}
+
+#logo-bars {
+	border: 1px black solid;
+	font-size: 20px;
+	color: gray;
+	display: inline-block;
+	margin-left: 0.7em;
+	margin-top: 0.3em;
+	padding: 3px 7px 3px 7px;
+}
+
+#logo {
+	font-size: 20px;
+	margin-left: 170px;
+}
+
+#logo2 {
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+#logo3 {
+	font-size: 20px;
+}
+
+.kopjes {
+	display: inline-block;
+}
+
+#banner1 {
+	width: 10.5em;
+	height: 10em;
+	border: 1px solid black;
+	margin-left: 0.5em;
+}
+
+#banner2 {
+	width: 10.5em;
+	height: 10em;
+	border: 1px solid black;
+}
+
+.Proefles {
+	display: flex;
+	border-bottom: 1px solid gray;
+	max-width: 300px;
+	margin-left: 1.2em; 
+	height: 75px;
+}
+
+.Proefles h1 {
+	margin-left: 0.5em;
+	margin-top: 1em;
+}
+
+#proefles {
+	font-size: 2em;
+	color: gray;
+	margin-left: 0.8em;
+	margin-top: 1em;
+}
+
+.proefles-text {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.proefles-button {
+	border: 1px solid #8a2720;
+	background-color: #8a2720;
+}
+
+.proefles-button h1 {
+	font-size: 1.5em;
+	padding-left: 1.5em;
+	color: white;
+}
+
+.Locaties {
+	display: flex;
+	border-bottom: 1px solid gray;
+	max-width: 300px;
+	margin-left: 1.2em; 
+	height: 75px;
+}
+
+.Locaties h1 {
+	margin-left: 0.5em;
+	margin-top: 1em;
+}
+
+#locaties {
+	font-size: 2em;
+	color: gray;
+	margin-left: 0.8em;
+	margin-top: 1em;
+}
+
+.locaties-text {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+.Rijlessen {
+	display: flex;
+	border-bottom: 1px solid gray;
+	max-width: 300px;
+	margin-left: 1.2em; 
+	height: 75px;
+}
+
+.Rijlessen h1 {
+	margin-left: 0.5em;
+	margin-top: 1em;
+}
+
+#rijlessen {
+	font-size: 2em;
+	color: gray;
+	margin-left: 0.8em;
+	margin-top: 1em;
+}
+
+.rijlessen-text {
+	margin-left: 3em;
+	margin-right: 3em;
+}
+
+#video {
+	margin-left: 1em;
+}
+
+video {
+	margin-left: 1.7em;
+}
+
+#computerHeader {
+	display: none
+}
+
+footer {
+	background-color: #8a2720;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.contactHeader-Inhoud {
+		display: inline;
+	}
+
+	.kopjes {
+		display: flex;
+		width: 100%;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.kopjes div {
+		margin: 0 auto;
+	}
+
+	.proef {
+		width: 20%;
+	}
+
+	.loc {
+		width: 20%;
+	}
+
+	.rij {
+		width: 20%;
+	}
+
+	#menu-bars {
+		display: none;
+	}
+
+	#computerHeader {
+		display: flex;
+		color: white;
+	}
+
+	#computerHeader i, p{
+		display: inline-block;
+		margin-top: 0.6em;
+	}
+
+	.messageNumber, .time, .dahsboard, .facebook {
+		margin-left: 2em;
+	}
+
+	.phoneNumber {
+		margin-left: 43em;
+	}
+
+	.instagram, .twitter {
+		margin-left: 0.5em;
+	}
+
+	#logo-bars {
+		display: none;
+	}
+
+	.logoHeader {
+		margin-top: 4em;
+		height: 70px;
+	}
+
+	#logo, #logo2, #logo3 {
+		font-size: 50px;
+	}
+
+	.logoHeader ul{
+		display: inline;
+	}
+
+	.logoHeader ul li{
+		text-decoration: none;
+		display: inline;
+		color: gray;
+		font-size: 1.2em;
+		margin-left: 1em;
+	}
+
+	.logoHeader ul li i{
+		color: black;
+		margin-left: 0.3em;
+	}
+
+	#banner1 {
+		width: 49%;
+		height: 25em;
+	}
+
+	#banner2 {
+		width: 49%;
+		height: 25em;
+	}
+
+	.Proefless {
+		width: 300px;
+	}
+
+	video {
+		width: 75%;
+		margin-left: 250px;
+		margin-top: 10px;
+	}
+
+	footer {
+		background-color: #8a2720;
+		text-align: center;
+	}
+}

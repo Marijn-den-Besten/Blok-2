@@ -489,6 +489,8 @@ var woord = [];
 var randomWoord = [];
 var letters = [];
 
+var pogingen = 0;
+
 var body = document.getElementsByTagName("BODY")[0];
 
 var divInvoer = document.createElement("div");
@@ -554,6 +556,7 @@ speelbordDiv.style.display = "grid";
 speelbordDiv.style.gridTemplateColumns = "120px 120px 120px 120px 120px";
 
 checkButton.onclick = function(){
+	if (pogingen != 5) {
 	woord = inputWoord.value.toLowerCase();
 	randomWoord = rand;
 
@@ -643,16 +646,6 @@ checkButton.onclick = function(){
 	console.log(gok);
 	console.log(letters);
 
-	// for (o = 0; o < rand.length; o++){
-	// 	for (i = 0; i < rand.length; i++){
-	// 		if (rand[i] == woord[o]) {
-	// 			if (letters[i] != 1 && letters[o] != 1) {
-	// 				letters[o] = 2;
-	// 			}
-	// 		}
-	// 	}
-	// }
-
 	if (letters[0] == 1) {
 		l1.style.backgroundColor = "green";
 	}else if (letters[0] == 2) {
@@ -691,6 +684,12 @@ checkButton.onclick = function(){
 
 	if (letters[0] && letters[1] && letters[2] && letters[3] && letters[4] == 1) {
 		alert("Solved");
+		location.reload();
+	}
+	pogingen++;
+	}
+	else{
+		alert("Je hebt teveel geprobeerd");
 		location.reload();
 	}
 }

@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo', sans-serif;
+	width: 100%;
+}
+
+.contactHeader {
+	background-color: yellow;
+	height: 2.5em;
+	width: 100%;
+	display: flex;
+}
+
+.contactHeader i, p{
+	display: inline-block;
+	margin-top: 0.6em;
+}
+
+.messageNumber, .time, .dahsboard, .facebook {
+	margin-left: 2em;
+}
+
+.phoneNumber {
+	margin-left: 43em;
+}
+
+.instagram, .twitter {
+	margin-left: 0.5em;
+}
+
+.mainHeader {
+	height: 6em;
+}
+
+.mainHeader ul li{
+	text-decoration: none;
+	display: inline-block;
+	color: gray;
+	font-size: 1.2em;
+	margin-left: 1em;
+}
+
+.mainHeader ul li i{
+	color: black;
+	margin-left: 0.3em;
+}
+
+.mainHeader ul{
+	margin-left: 30em;
+	margin-top: 5em;
+}
+
+#logoHeader {
+	width: 400px;
+	height: 130px;
+	margin-left: 7em;
+	margin-top: 2em;
+	position: absolute;
+
+}
+
+#banner1 {
+	width: 100%;
+}
